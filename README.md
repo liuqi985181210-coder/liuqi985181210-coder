@@ -9,6 +9,7 @@
 | [Excel 表头兼容检查](https://github.com/liuqi985181210-coder/excel-header-checker-cn) | 浏览器本地比较两组表头，判断是否可直接合并 | 不上传文件；公开仓库只含虚构示例 |
 | [异步 CSV 数据同步样例](https://github.com/liuqi985181210-coder/async-csv-sync-demo-cn) | 幂等去重、冲突隔离、重试队列、最新状态和运行汇总 | 6 项自动测试；公开仓库只含虚构订单事件 |
 | [AI 客服转人工路由样例](https://github.com/liuqi985181210-coder/ai-customer-handoff-demo-cn) | 无答案、退款、投诉、安全和规则绕过场景停止自动回复 | 9 项自动测试；不调用模型 API；公开仓库只含虚构客服消息 |
+| [ZimaOS 三路径冒烟测试预制演示](https://github.com/liuqi985181210-coder/zimaos-smoke-pilot-preview) | Playwright CLI 导航、选择器断言、快照、截图、JSON 与 JUnit 报告 | 3/3 仅在本地虚构页面通过；非官方；不连接真实设备或保存凭据 |
 
 ## 当前可承接
 
@@ -17,6 +18,7 @@
 - 从固定明细生成对账汇总、客户明细或月报；
 - CSV / API 事件的去重、状态同步、失败重试和异常清单；
 - AI 客服或 Agent 的失败样例、转人工规则、结构化审计结果和回归测试；
+- 无凭据、由需求方在自有隔离环境运行的浏览器冒烟测试脚本与验收报告；
 - 先用 1–2 份脱敏样例确认输入、规则、输出和验收结果。
 
 基础小单对应一个能单独验收的结果；需要反复使用的 Windows 本地工具从 199 元起。范围和费用先书面确认，不以低价入口承诺无限修改。
